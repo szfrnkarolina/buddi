@@ -1,0 +1,15 @@
+.btn-red {
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: var(--accent-color);
+  border: 1px solid var(--hover-color);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-red:hover {
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: var(--hover-color);
+  transition: 0.3s;
+}

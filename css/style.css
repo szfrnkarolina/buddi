@@ -1,0 +1,47 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Source+Sans+Pro&display=swap");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+
+:root {
+  --bg-color: #FAFBFD;
+  --card-bg-color: #FFFFFF;
+  --main-text-color: #1C1D24;
+  --secondary-text-color: #A1A3B3;
+  --accent-color: #FF7A59;
+  --accent-2-color: #62D8DC;
+  --hover-color: #DF5837;
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--bg-color);
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+h1, h2 {
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: var(--accent-2-color);
+}
